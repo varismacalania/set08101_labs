@@ -1,0 +1,135 @@
+body {
+    background-color: #FFDDFF;
+    margin: -20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    background-color: #CCCCFF;
+    color: #27214F;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h2 {
+    background-color: #CCCCFF;
+    color: #27214F;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h3 {
+    background-color: #CCCCFF;
+    color: #27214F;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h4 {
+    background-color: #CCCCFF;
+    color: #27214F;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h5 {
+    background-color: #CCCCFF;
+    color: #27214F;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h6 {
+    background-color: #CCCCFF;
+    color: #27214F;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+blockquote {
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+h3.head {
+    color: #27214F;
+    text-align:left;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+p.first {
+    background-color: #E6EBFF;
+    color: #27214F;
+    column-count: 2;
+    column-width: 300px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+p.second {
+    background-color: #CCDDFF;
+    color: #27214F;
+    column-count: 2;
+    column-width: 300px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+p.third  {
+    background-color: #CCEEFF;
+    color: #27214F;
+    column-count: 2;
+    column-width: 300px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+p.fourth {
+    background-color: #CCFFFF;
+    color: #27214F;
+    column-count: 2;
+    column-width: 300px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #CCCCFF;
+}
