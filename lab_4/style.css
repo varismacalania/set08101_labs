@@ -1,8 +1,8 @@
 body {
     background-color: #FFDDFF;
-    margin: -20px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    margin: 0px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
@@ -74,18 +74,76 @@ pre {
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
-    line-height: 18.5714px;
+    line-height: 18.6px;
 }
 
-h3.head {
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: -10px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+
+    position: relative;
+}
+
+nav a {
     color: #27214F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #27214F;
+
+    position: absolute;
+    top: 10px;
+    width: 0%;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+header {
+    background: #CCCCFF;
+    position: relative;
+    top: -10px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.head {
+    color: #27214F;
+    border-style: double;
+    padding: 5px;
     text-align:left;
     font-family: Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
+    float: left;
 }
 
-p.first {
+.first {
     background-color: #E6EBFF;
     color: #27214F;
     column-count: 2;
@@ -95,7 +153,7 @@ p.first {
     font-variant: normal;
 }
 
-p.second {
+.second {
     background-color: #CCDDFF;
     color: #27214F;
     column-count: 2;
@@ -105,7 +163,7 @@ p.second {
     font-variant: normal;
 }
 
-p.third  {
+.third  {
     background-color: #CCEEFF;
     color: #27214F;
     column-count: 2;
@@ -115,7 +173,7 @@ p.third  {
     font-variant: normal;
 }
 
-p.fourth {
+.fourth {
     background-color: #CCFFFF;
     color: #27214F;
     column-count: 2;
@@ -125,11 +183,7 @@ p.fourth {
     font-variant: normal;
 }
 
-div.container {
+.container {
     width: 80%;
     margin: 0 auto;
-}
-
-header {
-    background: #CCCCFF;
 }
