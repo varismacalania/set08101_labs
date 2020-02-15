@@ -77,6 +77,7 @@ pre {
     line-height: 18.6px;
 }
 
+/* toolbar  */
 nav {
     float: right;
 }
@@ -134,6 +135,12 @@ header::after {
     clear: both;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* toolbar end */
+
 .head {
     color: #27214F;
     border-style: double;
@@ -177,7 +184,4 @@ header::after {
     font-variant: normal;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+
